@@ -73,11 +73,19 @@ Atained an A* (67/80)
 
 ## What I Learned
 
-I learnt the foundations of pygame and learnt how to implement them into a fully working game that allowed me to understand how to code 
+- **Object-oriented programming:** I split the game into classes (player, enemies, boss, bullets, items, camera), which kept each part easy to build, test and change independently.
+- **The game loop:** I learned how to structure a loop that handles input, updates game logic and draws to the screen every frame at a consistent frame rate.
+- **Collision detection:** I wrote my own collision handling so the player, enemies, bullets, walls and platforms all interact correctly.
+- **State management:** I used game states to switch cleanly between menus, gameplay and game over screens.
+- **Scrolling cameras:** I implemented a camera that follows the player through levels larger than the screen.
+- **Iterative development:** I built the game in stages, testing each feature before adding the next, and fixed bugs as they appeared.
 
 ## Known Issues / Future Improvements
 
-Making the boss battle more intense and making it so the boss is stronger 
+- Add more levels and enemy types
+- Add sound effects and music
+- Add a save system or high score table
+- Improve boss AI with more attack patterns
 
 ## Credits
 
